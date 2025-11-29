@@ -36,7 +36,7 @@ function addItem(e) {
   const id = new Date().getTime().toString(); // a little bit unconventional way
 
   if (value && !editFlag) {
-    createListItem();
+    createListItem(id, value);
 
     // display alert
 
